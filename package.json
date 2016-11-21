@@ -1,0 +1,32 @@
+{
+  "name": "teknik-paste",
+  "version": "0.0.1",
+  "description": "Simple package for paste your code to https://paste.teknik.io (from guest and without limits!)",
+  "scripts": {
+    "test": "npm run compile && node test.js",
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/"
+  },
+  "keywords": [
+    "paste",
+    "pastebin"
+  ],
+  "main": "lib/teknik-paste.js",
+  "author": "Igor Tkachenko",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "dependencies": {
+    "request": "^2.78.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foozzi/teknik-paste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foozzi/teknik-paste/issues"
+  },
+  "homepage": "https://github.com/foozzi/teknik-paste#readme"
+}
